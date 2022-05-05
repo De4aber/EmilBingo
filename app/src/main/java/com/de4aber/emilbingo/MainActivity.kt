@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickStart(){
-        val intent = Intent(this, GameActivity::class.java)
+        val intent = Intent(this, BingoActivity::class.java)
         startActivity(intent);
     }
 
