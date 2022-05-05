@@ -92,7 +92,8 @@ class BoardFragment : Fragment() {
             if(position == (boardViewModel.tiles.size/2)){
                 boardField.text = "gratis"
                 holder.apply {
-                    btn.setBackgroundResource(boardField.getImage())
+                    btn.setBackgroundResource(boardField.onClicked())
+                    btn.text = boardField.text
                 }
             }
             else {

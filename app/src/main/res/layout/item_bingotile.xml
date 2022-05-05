@@ -7,19 +7,21 @@
 
     <Button
         android:id="@+id/tile"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/tilestyle"
         android:gravity="center"
         android:text="Button"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/tilestyle"
-        android:textColor="@color/black"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
