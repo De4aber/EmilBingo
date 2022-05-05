@@ -7,10 +7,6 @@ import kotlinx.android.synthetic.main.activity_bingo.*
 
 class BingoActivity : AppCompatActivity() {
 
-    private val boardViewModel:BoardViewModel by lazy{
-        ViewModelProvider(this).get(BoardViewModel::class.java)
-    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

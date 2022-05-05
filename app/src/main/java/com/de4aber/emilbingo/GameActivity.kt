@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.GridLayout
 import androidx.appcompat.app.AppCompatActivity
 import kotlin.random.Random
-
+//Den bliver ikke brugt længere
 class GameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,59 +19,59 @@ class GameActivity : AppCompatActivity() {
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY) }
         var list = listOf("Dyb stemme","Pive stemme","2 Hænder foran øjne","1 Hånd foran øjne","2 Hænder i hår","1 Hånd i hår","Tomat ansigt","Siger noget dumt","\"Jeg smelter\"","\"Nej men prøv lige at hør\"","Misser i beer pong","Ironien faktisk er på plads","Laver en reel god joke","Lyver i Meyer","Rammer i beer pong","Tager et shot","Drikker 1 øl","\"Økosystem\"","Flirter med en pige","Snakker for at undgå stilhed","\"Du nedern\"","\"Du pinlig\"","\"Det ironi\"","Laver en \"Joke\"").toMutableList()
 
-        var grid = findViewById<GridLayout>(R.id.test);
-        var b1 = findViewById<Button>(R.id.tile1);
-        var b2 = findViewById<Button>(R.id.tile2);
-        var b3 = findViewById<Button>(R.id.tile3);
-        var b4 = findViewById<Button>(R.id.tile4);
-        var b5 = findViewById<Button>(R.id.tile5);
-        var b6 = findViewById<Button>(R.id.tile6);
-        var b7 = findViewById<Button>(R.id.tile7);
-        var b8 = findViewById<Button>(R.id.tile8);
-        var b9 = findViewById<Button>(R.id.tile9);
-        var b10 = findViewById<Button>(R.id.tile10);
-        var b11 = findViewById<Button>(R.id.tile11);
-        var b12 = findViewById<Button>(R.id.tile12);
-        var b13 = findViewById<Button>(R.id.tile13);
-        var b14 = findViewById<Button>(R.id.tile14);
-        var b15 = findViewById<Button>(R.id.tile15);
-        var b16 = findViewById<Button>(R.id.tile16);
-        var b17 = findViewById<Button>(R.id.tile17);
-        var b18 = findViewById<Button>(R.id.tile18);
-        var b19 = findViewById<Button>(R.id.tile19);
-        var b20 = findViewById<Button>(R.id.tile20);
-        var b21 = findViewById<Button>(R.id.tile21);
-        var b22 = findViewById<Button>(R.id.tile22);
-        var b23 = findViewById<Button>(R.id.tile23);
-        var b24 = findViewById<Button>(R.id.tile24);
-        var gratis = findViewById<Button>(R.id.gratis);
-        var luk = findViewById<Button>(R.id.luk);
+        var grid = findViewById<GridLayout>(R.id.test)
+        var b1 = findViewById<Button>(R.id.tile1)
+        var b2 = findViewById<Button>(R.id.tile2)
+        var b3 = findViewById<Button>(R.id.tile3)
+        var b4 = findViewById<Button>(R.id.tile4)
+        var b5 = findViewById<Button>(R.id.tile5)
+        var b6 = findViewById<Button>(R.id.tile6)
+        var b7 = findViewById<Button>(R.id.tile7)
+        var b8 = findViewById<Button>(R.id.tile8)
+        var b9 = findViewById<Button>(R.id.tile9)
+        var b10 = findViewById<Button>(R.id.tile10)
+        var b11 = findViewById<Button>(R.id.tile11)
+        var b12 = findViewById<Button>(R.id.tile12)
+        var b13 = findViewById<Button>(R.id.tile13)
+        var b14 = findViewById<Button>(R.id.tile14)
+        var b15 = findViewById<Button>(R.id.tile15)
+        var b16 = findViewById<Button>(R.id.tile16)
+        var b17 = findViewById<Button>(R.id.tile17)
+        var b18 = findViewById<Button>(R.id.tile18)
+        var b19 = findViewById<Button>(R.id.tile19)
+        var b20 = findViewById<Button>(R.id.tile20)
+        var b21 = findViewById<Button>(R.id.tile21)
+        var b22 = findViewById<Button>(R.id.tile22)
+        var b23 = findViewById<Button>(R.id.tile23)
+        var b24 = findViewById<Button>(R.id.tile24)
+        var gratis = findViewById<Button>(R.id.gratis)
+        var luk = findViewById<Button>(R.id.luk)
 
-        var b1Clicked = false;
-        var b2Clicked = false;
-        var b3Clicked = false;
-        var b4Clicked = false;
-        var b5Clicked = false;
-        var b6Clicked = false;
-        var b7Clicked = false;
-        var b8Clicked = false;
-        var b9Clicked = false;
-        var b10Clicked = false;
-        var b11Clicked = false;
-        var b12Clicked = false;
-        var b13Clicked = false;
-        var b14Clicked = false;
-        var b15Clicked = false;
-        var b16Clicked = false;
-        var b17Clicked = false;
-        var b18Clicked = false;
-        var b19Clicked = false;
-        var b20Clicked = false;
-        var b21Clicked = false;
-        var b22Clicked = false;
-        var b23Clicked = false;
-        var b24Clicked = false;
-        var gratisClicked = false;
+        var b1Clicked = false
+        var b2Clicked = false
+        var b3Clicked = false
+        var b4Clicked = false
+        var b5Clicked = false
+        var b6Clicked = false
+        var b7Clicked = false
+        var b8Clicked = false
+        var b9Clicked = false
+        var b10Clicked = false
+        var b11Clicked = false
+        var b12Clicked = false
+        var b13Clicked = false
+        var b14Clicked = false
+        var b15Clicked = false
+        var b16Clicked = false
+        var b17Clicked = false
+        var b18Clicked = false
+        var b19Clicked = false
+        var b20Clicked = false
+        var b21Clicked = false
+        var b22Clicked = false
+        var b23Clicked = false
+        var b24Clicked = false
+        var gratisClicked = false
 
         b1.text = getRandomElement(list)
         b2.text = getRandomElement(list)
