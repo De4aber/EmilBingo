@@ -9,6 +9,7 @@ import android.widget.Button
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.random.Random
 
 
 class BoardFragment : Fragment() {
@@ -85,16 +86,27 @@ class BoardFragment : Fragment() {
         }
 
         override fun onBindViewHolder(holder: BoardHolder, position: Int) {
+            val tileText = boardViewModel.list
             val boardField = tiles[position]
             boardField.position = position
             if(position == (boardViewModel.tiles.size/2)){
                 boardField.text = "gratis"
+                holder.apply {
+                    btn.setBackgroundResource(boardField.getImage())
+                }
             }
             else {
-                boardField.text = boardViewModel.list[position]
+                boardField.text = getRandomElement(tileText)
+                holder.bind(boardField)
             }
-            holder.bind(boardField)
         }
+    }
+    fun <T> getRandomElement(list: MutableList<T>): T {
+        val randomIndex = Random.nextInt(list.size)
+
+        val result = list[randomIndex]
+        list.removeAt(randomIndex)
+        return result
     }
 
 }
