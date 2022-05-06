@@ -12,7 +12,7 @@ class BoardViewModel: ViewModel() {
         createBoardFields()
     }
 
-    var list = listOf("sigen nogen er pinlige","Dyb stemme","Pive stemme","2 Hænder foran øjne","1 Hånd foran øjne","2 Hænder i hår","1 Hånd i hår","Tomat ansigt","Siger noget dumt","\"Jeg smelter\"","\"Nej men prøv lige at hør\"","Misser i beer pong","Ironien faktisk er på plads","Laver en reel god joke","Lyver i Meyer","Rammer i beer pong","Tager et shot","Drikker 1 øl","\"Økosystem\"","Flirter med en pige","Snakker for at undgå stilhed","\"Du nedern\"","\"Du pinlig\"","\"Det ironi\"","Laver en \"Joke\"").toMutableList()
+    var list = listOf("Dyb stemme","Pive stemme","2 Hænder foran øjne","1 Hånd foran øjne","2 Hænder i hår","1 Hånd i hår","Tomat ansigt","Siger noget dumt","\"Jeg smelter\"","\"Nej men prøv lige at hør\"","Misser i beer pong","Ironien faktisk er på plads","Laver en reel god joke","Lyver i Meyer","Rammer i beer pong","Tager et shot","Drikker 1 øl","\"Økosystem\"","Flirter med en pige","Snakker for at undgå stilhed","\"Du nedern\"","\"Du pinlig\"","\"Det ironi\"","Laver en \"Joke\"").toMutableList()
 
 
     fun createBoardFields() {
