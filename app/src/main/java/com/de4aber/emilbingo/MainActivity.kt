@@ -17,19 +17,19 @@ class MainActivity : AppCompatActivity() {
                 or View.SYSTEM_UI_FLAG_FULLSCREEN
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY) }
 
-        var start = findViewById<Button>(R.id.Start);
-        var luk = findViewById<Button>(R.id.Luk);
+        var start = findViewById<Button>(R.id.Start)
+        var luk = findViewById<Button>(R.id.Luk)
         start.setOnClickListener { onClickStart() }
         luk.setOnClickListener { onClickLuk() }
 
     }
 
     fun onClickStart(){
-        val intent = Intent(this, GameActivity::class.java)
-        startActivity(intent);
+        val intent = Intent(this, BingoActivity::class.java)
+        startActivity(intent)
     }
 
     fun onClickLuk(){
-        finish();
+        finish()
     }
 }

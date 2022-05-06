@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/drawable/knapstyle.xml" value="0.196" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/drawable/selected.xml" value="0.196" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/drawable/test.xml" value="0.196" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/activity_bingo.xml" value="0.3009833262077811" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/activity_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/activity_game_v2.xml" value="0.33" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/fragment_board.xml" value="0.36666666666666664" />
+        <entry key="..\:/Cecilie/Kode projekter/Android/EmilseBilseBingo/EmilBingo/app/src/main/res/layout/item_bingotile.xml" value="1.0" />
         <entry key="..\:/dev/EmilBingo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.211" />
         <entry key="..\:/dev/EmilBingo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1525" />
         <entry key="..\:/dev/EmilBingo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.211" />
