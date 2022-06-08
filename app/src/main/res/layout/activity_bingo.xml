@@ -19,14 +19,14 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/boardFragment"
+        android:name="com.de4aber.emilbingo.MenuFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/btnBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        android:name="com.de4aber.emilbingo.BoardFragment"
-        tools:layout="@layout/fragment_board" />
+        tools:layout="@layout/fragment_menu" />
 
     <Button
         android:id="@+id/btnBack"
